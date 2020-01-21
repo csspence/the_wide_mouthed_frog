@@ -11,6 +11,6 @@ corresponds to the animal encountered by frog. If this one is an alligator (case
 return small otherwise return wide.
 */
 
-function mouthSize(animal) {
-  // code here
+const mouthSize = (animal) => {
+  return (animal.toLowerCase() === "alligator" ? "small" : "wide");
 }
